@@ -21,7 +21,7 @@ Extract move to /path/to/mt/plugins/
 
 You set this plugin settings and enter template tag on template.
 
-    <$MTFlickrpl$>
+    <$MTFlickrPL$>
           or
     <$mt:flickrpl$>
 
@@ -30,7 +30,7 @@ You set this plugin settings and enter template tag on template.
 You can use modifiers.
 Modifieres that you can use are user_id, per_page, extras, and list_style.
 
-    <$mt:flickrpl list_style="ul" extras="url_t" per_page="20" user_id="N....@....."$>
+    <$mt:flickrpl list_style="ul" extras="url_t" per_page="20" user_id=".......@N.."$>
 
 =head1 Lisense
 

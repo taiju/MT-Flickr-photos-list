@@ -21,7 +21,7 @@ Use
     You can use modifiers.
     Modifieres that you can use are user_id, per_page, extras, and list_style.
 
-      <$mt:flickrpl list_style="ul" extras="url_t" per_page="20" user_id="N....@....."$>
+      <$mt:flickrpl list_style="ul" extras="url_t" per_page="20" user_id=".......@N.."$>
 
 Lisense
   Please refer to FlickrPhotosList-LISENSE.txt
