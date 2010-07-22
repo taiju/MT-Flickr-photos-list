@@ -1,0 +1,23 @@
+<mtapp:setting id="user_id" label="user_id(ns_id):" hint="usernameではなく、user_id(ns_id)を指定します。" show_hint="show_hint" required="required">
+    <input type="text" name="user_id" id="user_id" value="<mt:var name="user_id" escape="html">" />
+</mtapp:setting>
+<mtapp:setting id="api_key" label="api_key:" required="required">
+    <input type="text" name="api_key" id="api_key" value="<mt:var name="api_key" escape="html">" />
+</mtapp:setting>
+<mtapp:setting id="per_page" label="per_page:">
+    <input type="text" name="per_page" id="per_page" value="<mt:var name="per_page" escape="html">" />
+</mtapp:setting>
+<mtapp:setting id="extras" label="extras:">
+    <select name="extras" id="extras">
+        <option value="url_sq"<mt:if name="extras" eq="url_sq"> selected="selected"</mt:if>>url_sq</option>
+        <option value="url_t"<mt:if name="extras" eq="url_t"> selected="selected"</mt:if>>url_t</option>
+        <option value="url_s"<mt:if name="extras" eq="url_s"> selected="selected"</mt:if>>url_s</option>
+        <option value="url_m"<mt:if name="extras" eq="url_m"> selected="selected"</mt:if>>url_m</option>
+    </select>
+</mtapp:setting>
+<mtapp:setting id="list_style" label="list_style:">
+    <select name="list_style" id="list_style">
+      <option value="ul"<mt:if name="list_style" eq="ul"> selected="selected"</mt:if>>ul</option>
+      <option value="ol"<mt:if name="list_style" eq="ol"> selected="selected"</mt:if>>ol</option>
+    </select>
+</mtapp:setting>

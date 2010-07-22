@@ -1,0 +1,21 @@
+name: Flickr photos List
+id: FlickrPhotosList
+athor_link: http://d.hatena.ne.jp/jdg/
+author_name: taiju
+description: Flickrの写真をul要素または、ol要素で読み込みます。
+version: 0.1
+system_config_template: flickrpl_system_config.tmpl
+settings:
+    user_id:
+        default: USERID 
+    api_key:
+        default: APIKEY
+    per_page:
+        default: 10
+    extras:
+        default: url_sq
+    list_style:
+        default: ul
+tags:
+    function:
+        FlickrPL: $FlickrPhotosList::FlickrPhotosList::Plugin::tag

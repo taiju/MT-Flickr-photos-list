@@ -1,0 +1,13 @@
+# CPAN chain files
+^MANIFEST
+^Makefile
+^META.yml$
+^blib/
+~$
+
+#git
+^.git/
+
+# packages
+\.zip$
+\.tar\.gz$
