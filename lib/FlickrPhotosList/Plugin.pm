@@ -21,7 +21,7 @@ Extract move to /path/to/mt/plugins/
 
 You set this plugin settings and enter template tag on template.
 
-    <$MTFlickrpl$>
+    <$MTFlickrPL$>
           or
     <$mt:flickrpl$>
 
