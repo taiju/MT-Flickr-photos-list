@@ -13,7 +13,7 @@ Installation
 Use
   You set this plugin settings and enter template tag on template.
 
-      <$MTFlickrpl$>
+      <$MTFlickrPL$>
            or
       <$mt:flickrpl$>
 
