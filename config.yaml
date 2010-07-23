@@ -3,7 +3,7 @@ id: FlickrPhotosList
 athor_link: http://d.hatena.ne.jp/jdg/
 author_name: taiju
 description: Flickrの写真をul要素または、ol要素で読み込みます。
-version: 0.1
+version: 1.0
 system_config_template: flickrpl_system_config.tmpl
 settings:
     user_id:
