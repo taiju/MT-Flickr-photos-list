@@ -11,7 +11,7 @@ use XML::Simple;
 
 sub tag {
     my ($ctx, $args) = @_;
-    my $plugin = MT->component('FlickrPhotosList');
+    my $plugin = MT->component('FlickrPhotosList-1');
 
     my $list_style = defined $args->{list_style} ? $args->{list_style} : $plugin->get_config_value('list_style');
 
