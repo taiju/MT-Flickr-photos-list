@@ -8,7 +8,9 @@ Flickr photos List Plugin
   This is Movabletype plugin. This plugin get photos from flickr, and outputs ul or ol element.
 
 Installation
-  Extract move to /path/to/mt/plugins/
+  Simply drop the directory `plugins/FlickrPhotosList` contained in this archive into
+your `$MT_HOME/plugins` directory.
+
 
 Use
   You set this plugin settings and enter template tag on template.
