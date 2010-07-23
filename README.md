@@ -11,8 +11,7 @@ your `$MT_HOME/plugins` directory.
 ## Use
 You set this plugin settings and enter template tag on template.
 
-`<$MTFlickrPL$>`
-       or
+`<$MTFlickrPL$>` or
 `<$mt:flickrpl$>`
 
 ## Use modifiers
